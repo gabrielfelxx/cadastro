@@ -196,6 +196,7 @@ body {
 @media screen and (max-width: 1125px) {
     .container {
         width: 90%;
+        height: auto;
         margin: auto;
         box-shadow: none;
     }
@@ -208,34 +209,17 @@ body {
 
     .input-group {
         flex-direction: column;
-        /*overflow-y: scroll;*/
+        overflow-y: scroll;
         flex-wrap: nowrap;
         max-height: 10rem;
         padding-right: 5rem;
     }
 
-    .gender-inputs {
-        margin-top: 2rem;
-        padding-top: 25rem;
-    }
-
     .gender-group {
-        flex-direction: flex;
         margin-top: 0.5rem;
     }
 
     .gender-input {
         padding: 0.5rem;
-    }
-
-    .container {
-        height: 60rem;
-    }
-}
-
-@media screen and (max-width: 580px) {
-    .form {
-        display: flex;
-        width: 150%;
     }
 }
