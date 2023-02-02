@@ -11,7 +11,7 @@ Um projeto responsivo de tela de cadastro de usuário <br/>
 <br>
 
 <p align="center">
-  <img alt="projeto Habits" src=".github/preview.jpg" width="100%">
+  <img alt="Cadastro" src=".github/preview.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
