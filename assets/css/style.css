@@ -19,7 +19,8 @@ body {
     width: 80%;
     height: 80vh;
     display: flex;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, .212);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+    border-radius: 10px;
 }
 
 .form-image {
@@ -29,6 +30,8 @@ body {
     align-items: center;
     background-color: #dbead5;
     padding: 1rem;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 .form-image img {
@@ -43,6 +46,8 @@ body {
     flex-direction: column;
     background-color: #fff;
     padding: 3rem;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .form-header {
@@ -184,18 +189,27 @@ body {
 
     .form {
         width: 100%;
+        border-radius: 15px;
     }
 }
 
 @media screen and (max-width: 1064px) {
     .container {
-        width: 90%;
-        height: auto;
+        width: 80%;
+        height: 10%;
+        padding: 30px;
+        margin-top: 80px;
+        box-shadow: none;
+    }
+
+    .form {
+        display: block;
+        border-radius: 15px;
     }
 
     .input-group {
         flex-direction: column;
-        overflow-y: scroll;
+        /*overflow-y: scroll;*/
         flex-wrap: nowrap;
         max-height: 10rem;
         padding-right: 5rem;
@@ -203,14 +217,19 @@ body {
 
     .gender-inputs {
         margin-top: 2rem;
+        padding-top: 25rem;
     }
 
     .gender-group {
-        flex-direction: column;
+        flex-direction: flex;
         margin-top: 0.5rem;
     }
 
     .gender-input {
         padding: 0.5rem;
+    }
+
+    .container {
+        height: 60rem;
     }
 }
